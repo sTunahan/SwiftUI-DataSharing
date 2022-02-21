@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		118EA12927C36C2C0044ED56 /* Veri_Paylas_imiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118EA12827C36C2C0044ED56 /* Veri_Paylas_imiApp.swift */; };
+		118EA12B27C36C2C0044ED56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118EA12A27C36C2C0044ED56 /* ContentView.swift */; };
+		118EA12D27C36C2E0044ED56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118EA12C27C36C2E0044ED56 /* Assets.xcassets */; };
+		118EA13027C36C2E0044ED56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118EA12F27C36C2E0044ED56 /* Preview Assets.xcassets */; };
+		118EA13A27C36C2E0044ED56 /* Veri_Paylas_imiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118EA13927C36C2E0044ED56 /* Veri_Paylas_imiTests.swift */; };
+		118EA14427C36C2E0044ED56 /* Veri_Paylas_imiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118EA14327C36C2E0044ED56 /* Veri_Paylas_imiUITests.swift */; };
+		118EA14627C36C2E0044ED56 /* Veri_Paylas_imiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118EA14527C36C2E0044ED56 /* Veri_Paylas_imiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		118EA13627C36C2E0044ED56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 118EA11D27C36C2C0044ED56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118EA12427C36C2C0044ED56;
+			remoteInfo = "Veri Paylasıimi";
+		};
+		118EA14027C36C2E0044ED56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 118EA11D27C36C2C0044ED56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118EA12427C36C2C0044ED56;
+			remoteInfo = "Veri Paylasıimi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		118EA12527C36C2C0044ED56 /* Veri Paylasıimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Veri Paylasıimi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		118EA12827C36C2C0044ED56 /* Veri_Paylas_imiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veri_Paylas_imiApp.swift; sourceTree = "<group>"; };
+		118EA12A27C36C2C0044ED56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		118EA12C27C36C2E0044ED56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		118EA12F27C36C2E0044ED56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		118EA13527C36C2E0044ED56 /* Veri PaylasıimiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veri PaylasıimiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		118EA13927C36C2E0044ED56 /* Veri_Paylas_imiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veri_Paylas_imiTests.swift; sourceTree = "<group>"; };
+		118EA13F27C36C2E0044ED56 /* Veri PaylasıimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veri PaylasıimiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		118EA14327C36C2E0044ED56 /* Veri_Paylas_imiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veri_Paylas_imiUITests.swift; sourceTree = "<group>"; };
+		118EA14527C36C2E0044ED56 /* Veri_Paylas_imiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veri_Paylas_imiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		118EA12227C36C2C0044ED56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118EA13227C36C2E0044ED56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118EA13C27C36C2E0044ED56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		118EA11C27C36C2C0044ED56 = {
+			isa = PBXGroup;
+			children = (
+				118EA12727C36C2C0044ED56 /* Veri Paylasıimi */,
+				118EA13827C36C2E0044ED56 /* Veri PaylasıimiTests */,
+				118EA14227C36C2E0044ED56 /* Veri PaylasıimiUITests */,
+				118EA12627C36C2C0044ED56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		118EA12627C36C2C0044ED56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				118EA12527C36C2C0044ED56 /* Veri Paylasıimi.app */,
+				118EA13527C36C2E0044ED56 /* Veri PaylasıimiTests.xctest */,
+				118EA13F27C36C2E0044ED56 /* Veri PaylasıimiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		118EA12727C36C2C0044ED56 /* Veri Paylasıimi */ = {
+			isa = PBXGroup;
+			children = (
+				118EA12827C36C2C0044ED56 /* Veri_Paylas_imiApp.swift */,
+				118EA12A27C36C2C0044ED56 /* ContentView.swift */,
+				118EA12C27C36C2E0044ED56 /* Assets.xcassets */,
+				118EA12E27C36C2E0044ED56 /* Preview Content */,
+			);
+			path = "Veri Paylasıimi";
+			sourceTree = "<group>";
+		};
+		118EA12E27C36C2E0044ED56 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				118EA12F27C36C2E0044ED56 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		118EA13827C36C2E0044ED56 /* Veri PaylasıimiTests */ = {
+			isa = PBXGroup;
+			children = (
+				118EA13927C36C2E0044ED56 /* Veri_Paylas_imiTests.swift */,
+			);
+			path = "Veri PaylasıimiTests";
+			sourceTree = "<group>";
+		};
+		118EA14227C36C2E0044ED56 /* Veri PaylasıimiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				118EA14327C36C2E0044ED56 /* Veri_Paylas_imiUITests.swift */,
+				118EA14527C36C2E0044ED56 /* Veri_Paylas_imiUITestsLaunchTests.swift */,
+			);
+			path = "Veri PaylasıimiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		118EA12427C36C2C0044ED56 /* Veri Paylasıimi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118EA14927C36C2E0044ED56 /* Build configuration list for PBXNativeTarget "Veri Paylasıimi" */;
+			buildPhases = (
+				118EA12127C36C2C0044ED56 /* Sources */,
+				118EA12227C36C2C0044ED56 /* Frameworks */,
+				118EA12327C36C2C0044ED56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Veri Paylasıimi";
+			productName = "Veri Paylasıimi";
+			productReference = 118EA12527C36C2C0044ED56 /* Veri Paylasıimi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		118EA13427C36C2E0044ED56 /* Veri PaylasıimiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118EA14C27C36C2E0044ED56 /* Build configuration list for PBXNativeTarget "Veri PaylasıimiTests" */;
+			buildPhases = (
+				118EA13127C36C2E0044ED56 /* Sources */,
+				118EA13227C36C2E0044ED56 /* Frameworks */,
+				118EA13327C36C2E0044ED56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				118EA13727C36C2E0044ED56 /* PBXTargetDependency */,
+			);
+			name = "Veri PaylasıimiTests";
+			productName = "Veri PaylasıimiTests";
+			productReference = 118EA13527C36C2E0044ED56 /* Veri PaylasıimiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		118EA13E27C36C2E0044ED56 /* Veri PaylasıimiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118EA14F27C36C2E0044ED56 /* Build configuration list for PBXNativeTarget "Veri PaylasıimiUITests" */;
+			buildPhases = (
+				118EA13B27C36C2E0044ED56 /* Sources */,
+				118EA13C27C36C2E0044ED56 /* Frameworks */,
+				118EA13D27C36C2E0044ED56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				118EA14127C36C2E0044ED56 /* PBXTargetDependency */,
+			);
+			name = "Veri PaylasıimiUITests";
+			productName = "Veri PaylasıimiUITests";
+			productReference = 118EA13F27C36C2E0044ED56 /* Veri PaylasıimiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		118EA11D27C36C2C0044ED56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					118EA12427C36C2C0044ED56 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					118EA13427C36C2E0044ED56 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 118EA12427C36C2C0044ED56;
+					};
+					118EA13E27C36C2E0044ED56 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 118EA12427C36C2C0044ED56;
+					};
+				};
+			};
+			buildConfigurationList = 118EA12027C36C2C0044ED56 /* Build configuration list for PBXProject "Veri Paylasıimi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 118EA11C27C36C2C0044ED56;
+			productRefGroup = 118EA12627C36C2C0044ED56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				118EA12427C36C2C0044ED56 /* Veri Paylasıimi */,
+				118EA13427C36C2E0044ED56 /* Veri PaylasıimiTests */,
+				118EA13E27C36C2E0044ED56 /* Veri PaylasıimiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		118EA12327C36C2C0044ED56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118EA13027C36C2E0044ED56 /* Preview Assets.xcassets in Resources */,
+				118EA12D27C36C2E0044ED56 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118EA13327C36C2E0044ED56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118EA13D27C36C2E0044ED56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		118EA12127C36C2C0044ED56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118EA12B27C36C2C0044ED56 /* ContentView.swift in Sources */,
+				118EA12927C36C2C0044ED56 /* Veri_Paylas_imiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118EA13127C36C2E0044ED56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118EA13A27C36C2E0044ED56 /* Veri_Paylas_imiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118EA13B27C36C2E0044ED56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118EA14627C36C2E0044ED56 /* Veri_Paylas_imiUITestsLaunchTests.swift in Sources */,
+				118EA14427C36C2E0044ED56 /* Veri_Paylas_imiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		118EA13727C36C2E0044ED56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 118EA12427C36C2C0044ED56 /* Veri Paylasıimi */;
+			targetProxy = 118EA13627C36C2E0044ED56 /* PBXContainerItemProxy */;
+		};
+		118EA14127C36C2E0044ED56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 118EA12427C36C2C0044ED56 /* Veri Paylasıimi */;
+			targetProxy = 118EA14027C36C2E0044ED56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		118EA14727C36C2E0044ED56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		118EA14827C36C2E0044ED56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		118EA14A27C36C2E0044ED56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Veri Paylasıimi/Preview Content\"";
+				DEVELOPMENT_TEAM = 448H3S9AG3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tunahan.Veri-Paylas-imi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		118EA14B27C36C2E0044ED56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Veri Paylasıimi/Preview Content\"";
+				DEVELOPMENT_TEAM = 448H3S9AG3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tunahan.Veri-Paylas-imi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		118EA14D27C36C2E0044ED56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 448H3S9AG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tunahan.Veri-Paylas-imiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veri Paylasıimi.app/Veri Paylasıimi";
+			};
+			name = Debug;
+		};
+		118EA14E27C36C2E0044ED56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 448H3S9AG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tunahan.Veri-Paylas-imiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veri Paylasıimi.app/Veri Paylasıimi";
+			};
+			name = Release;
+		};
+		118EA15027C36C2E0044ED56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 448H3S9AG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tunahan.Veri-Paylas-imiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Veri Paylasıimi";
+			};
+			name = Debug;
+		};
+		118EA15127C36C2E0044ED56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 448H3S9AG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tunahan.Veri-Paylas-imiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Veri Paylasıimi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		118EA12027C36C2C0044ED56 /* Build configuration list for PBXProject "Veri Paylasıimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118EA14727C36C2E0044ED56 /* Debug */,
+				118EA14827C36C2E0044ED56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118EA14927C36C2E0044ED56 /* Build configuration list for PBXNativeTarget "Veri Paylasıimi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118EA14A27C36C2E0044ED56 /* Debug */,
+				118EA14B27C36C2E0044ED56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118EA14C27C36C2E0044ED56 /* Build configuration list for PBXNativeTarget "Veri PaylasıimiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118EA14D27C36C2E0044ED56 /* Debug */,
+				118EA14E27C36C2E0044ED56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118EA14F27C36C2E0044ED56 /* Build configuration list for PBXNativeTarget "Veri PaylasıimiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118EA15027C36C2E0044ED56 /* Debug */,
+				118EA15127C36C2E0044ED56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 118EA11D27C36C2C0044ED56 /* Project object */;
+}
